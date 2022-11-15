@@ -11,14 +11,23 @@ public class Pizza {
 
     private String tamaño;
     private String tipo;
-    private String estado;
 
     Pizza(String ta, String ti, String es) {
 
         this.tamaño = ta;
         this.tipo = ti;
-        this.estado = es;
+
 
     }
+@Override
+    public String toString() {
 
+        String salida;
+
+        salida = String.format("Pizza %s , %s , %s ." ,tamaño , tipo );
+
+
+        return salida;
+
+    }
 }
