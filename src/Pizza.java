@@ -9,23 +9,48 @@
 
 public class Pizza {
 
+    private static int totalPedidas = 0;
+    public static int getTotalPedidas() { return totalPedidas; }
+    private static int totalServidas = 0;
+    public static int getTotalServvidas() { return totalServidas; }
+
     private String tamaño;
     private String tipo;
 
-    Pizza(String ta, String ti, String es) {
+    private int pedidas;
+
+    private int servidas;
+    Pizza(String ta, String ti ) {
 
         this.tamaño = ta;
         this.tipo = ti;
-
+        this.pedidas = 0;
+        this.servidas = 0;
 
     }
-@Override
+
+    public void contadorP (int numero){
+
+        pedidas += numero;
+        totalPedidas += numero;
+    }
+
+    public void contadorS (int numero){
+
+        servidas += numero;
+        totalServidas += numero;
+
+    }
+
+
+
+
+    @Override
     public String toString() {
 
         String salida;
 
-        salida = String.format("Pizza %s , %s , %s ." ,tamaño , tipo );
-
+        salida = String.format("Pizza %s ,%s, %s, %s" ,tamaño , tipo ,pedidas,servidas);
 
         return salida;
 
