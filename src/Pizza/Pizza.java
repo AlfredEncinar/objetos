@@ -1,4 +1,4 @@
-//Crea la clase Pizza con los atributos y métodos necesarios.
+package Pizza;//Crea la clase Pizza.Pizza con los atributos y métodos necesarios.
 // Sobre cada pizza se necesita saber el tamaño.(mediana o familiar),
 // el tipo (margarita, cuatro quesos o marinera) y su estado (pedida o servida).
 // La clase debe almacenar información sobre el número total de pizzas que se han pedido
@@ -17,29 +17,22 @@ public class Pizza {
     private String tamaño;
     private String tipo;
 
-    private int pedidas;
+    private String estado;
 
-    private int servidas;
-    Pizza(String ta, String ti ) {
+    private String estadoS;
+    Pizza(String ta, String ti , String pedida, String servida) {
 
         this.tamaño = ta;
         this.tipo = ti;
-        this.pedidas = 0;
-        this.servidas = 0;
+        this.estado = pedida;
+        this.estadoS = servida;
 
     }
 
-    public void contadorP (int numero){
+    public int servida(){
 
-        pedidas += numero;
-        totalPedidas += numero;
-    }
 
-    public void contadorS (int numero){
-
-        servidas += numero;
-        totalServidas += numero;
-
+        return totalServidas++;
     }
 
 
@@ -50,7 +43,9 @@ public class Pizza {
 
         String salida;
 
-        salida = String.format("Pizza %s ,%s, %s, %s" ,tamaño , tipo ,pedidas,servidas);
+        salida = String.format("Pizza.Pizza %s  %s  %s  %s" ,tamaño , tipo ,estado,estadoS);
+
+        totalPedidas++;
 
         return salida;
 
