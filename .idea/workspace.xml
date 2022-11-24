@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae2429c5-a93d-4f88-bf35-de951f3c4aea" name="Changes" comment="h">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3/Zona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UsoPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UsoPizza.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +36,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "/home/estudiante/IdeaProjects/objetos"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="UsoPizza" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UsoPizza" />
+    <configuration name="Pizza.UsoPizza" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pizza.UsoPizza" />
       <module name="objetos" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -49,7 +50,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UsoPizza" />
+        <item itemvalue="Application.Pizza.UsoPizza" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669276454887</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="h">
+      <created>1669283262661</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669283262661</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
