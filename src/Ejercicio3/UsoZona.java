@@ -33,17 +33,17 @@ public class UsoZona {
                     System.out.println("hay " +  salaPrincipal.getEntradasPorVender() + " entradas ");
                     System.out.println("¿Cuantas entradas queria?");
                     sc.nextInt();
-                    System.out.println("¡Gracias!");
+                    System.out.println("¡Gracias por comprar!");
                 } else if (aux == 2) {
                     System.out.println("hay " +  compraVenta.getEntradasPorVender() + "entradas");
                     System.out.println("¿Cuantas entradas queria?");
                     sc.nextInt();
-                    System.out.println("¡Gracias!");
+                    System.out.println("¡Gracias por comrpar!");
                 } else if (aux == 3) {
                     System.out.println("hay " +  zonaVip.getEntradasPorVender() + " entradas");
                     System.out.println("¿Cuantas entradas queria?");
                     sc.nextInt();
-                    System.out.println("¡Gracias!");
+                    System.out.println("¡Gracias por comprar!");
                 }
             }else break;
         }
