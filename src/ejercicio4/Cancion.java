@@ -13,11 +13,13 @@ package ejercicio4;
 
 public class Cancion {
 
+
+
     private String titulo;
 
     private String autor;
 
-    Cancion (String ti , String au){
+    public Cancion (String ti , String au){
 
         this.titulo = ti;
         this.autor = au;
@@ -25,20 +27,22 @@ public class Cancion {
     }
 
 
-
-    public String dameTitulo(){
+    public String getTitulo(){
 
         return titulo;
     }
 
-    public String dameAutor(){
+    public String getAutor(){
 
         return autor;
     }
 
-     public String ponTitulo(String alfredBiography){
+     public void  setTitulo(String titulo){
 
-        return titulo;
+        this.titulo = titulo;
+
     }
+
+
 
 }

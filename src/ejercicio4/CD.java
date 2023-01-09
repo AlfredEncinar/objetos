@@ -12,14 +12,29 @@ package ejercicio4;
 //- agregaCancion(Cancion): agrega al final del array la Cancion proporcionada.
 //- elimina(int): elimina la canción que se encuentra en la posición indicada.
 
+import java.util.ArrayList;
+import java.util.Scanner;
 public class CD {
 
-    public static void main(String[] args) {
+    ArrayList<Cancion> canciones = new ArrayList<>();
+    Cancion cancion1 = new Cancion("alfred biographie" , " alfred");
+    public CD(ArrayList<Cancion> canciones) {
 
-        Cancion c1 = new Cancion("alfred biography" ,"Alfred");
-        System.out.println(c1.dameAutor() + "\t" + c1.dameTitulo());
+        this.canciones = canciones;
+
+        canciones.add(cancion1);
+        canciones.add(new Cancion("caperuzita" , "Manolo"));
 
     }
 
 
-}
+
+
+    }
+
+
+
+
+
+
+
