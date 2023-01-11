@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae2429c5-a93d-4f88-bf35-de951f3c4aea" name="Changes" comment="h">
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio8/ArrayProducto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio8/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio8/UsoProducto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio6/Fecha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio6/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio6/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio6/muestraLibro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio7/PilaPalabras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio7/PilaPalabras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio7/PilaPalabras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio7/UsoPilaPalabras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio7/UsoPilaPalabras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicio4/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicio4/CD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicio4/Cancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicio4/Cancion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +46,7 @@
     &quot;last_opened_file_path&quot;: &quot;/home/estudiante/IdeaProjects/objetos&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.UsoProducto">
+  <component name="RunManager" selected="Application.muestraLibro">
     <configuration name="CD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ejercicio4.CD" />
       <module name="objetos" />
@@ -57,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsoPilaPalabras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejercicio7.UsoPilaPalabras" />
+    <configuration name="Ejercicio3.Zona" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercicio3.Zona" />
       <module name="objetos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ejercicio7.*" />
+          <option name="PATTERN" value="Ejercicio3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,15 +73,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsoProducto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejercicio8.UsoProducto" />
+    <configuration name="Pizza.UsoPizza" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pizza.UsoPizza" />
       <module name="objetos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ejercicio8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UsoProducto" />
-        <item itemvalue="Application.UsoPilaPalabras" />
         <item itemvalue="Application.muestraLibro" />
         <item itemvalue="Application.CD" />
         <item itemvalue="Application.UsoZona" />
+        <item itemvalue="Application.Pizza.UsoPizza" />
+        <item itemvalue="Application.Ejercicio3.Zona" />
       </list>
     </recent_temporary>
   </component>
@@ -205,21 +202,7 @@
       <option name="project" value="LOCAL" />
       <updated>1669717885581</updated>
     </task>
-    <task id="LOCAL-00012" summary="h">
-      <created>1673280888015</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1673280888015</updated>
-    </task>
-    <task id="LOCAL-00013" summary="h">
-      <created>1673453900474</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1673453900474</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

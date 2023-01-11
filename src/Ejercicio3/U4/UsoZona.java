@@ -1,6 +1,5 @@
-package Ejercicio3;
+package Ejercicio3.U4;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class UsoZona {

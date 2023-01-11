@@ -8,7 +8,7 @@
 
         //Hay que controlar que hay entradas disponibles antes de venderlas. La clase Zona con sus atributos y métodos se muestra a continuación
 
-package Ejercicio3;
+package Ejercicio3.U4;
 
 public class Zona {
 

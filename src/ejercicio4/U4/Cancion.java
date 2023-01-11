@@ -1,4 +1,4 @@
-package ejercicio4;
+package ejercicio4.U4;
 
 //Desarrolla una clase Cancion con los siguientes atributos:
 //- titulo: una variable String que guarda el título de la canción.
@@ -13,13 +13,11 @@ package ejercicio4;
 
 public class Cancion {
 
-
-
     private String titulo;
 
     private String autor;
 
-    public Cancion (String ti , String au){
+    Cancion (String ti , String au){
 
         this.titulo = ti;
         this.autor = au;
@@ -27,22 +25,20 @@ public class Cancion {
     }
 
 
-    public String getTitulo(){
+
+    public String dameTitulo(){
 
         return titulo;
     }
 
-    public String getAutor(){
+    public String dameAutor(){
 
         return autor;
     }
 
-     public void  setTitulo(String titulo){
+     public String ponTitulo(String alfredBiography){
 
-        this.titulo = titulo;
-
+        return titulo;
     }
-
-
 
 }
