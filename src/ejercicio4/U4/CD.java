@@ -1,4 +1,4 @@
-package ejercicio4;
+package ejercicio4.U4;
 
 //Desarrola una clase CD con los siguientes atributos:
 //- canciones: un array de objetos de la clase Cancion
@@ -16,8 +16,6 @@ public class CD {
 
     public static void main(String[] args) {
 
-        Cancion c1 = new Cancion("alfred biography" ,"Alfred");
-        System.out.println(c1.dameAutor() + "\t" + c1.dameTitulo());
 
     }
 

@@ -1,4 +1,4 @@
-package ejercicio4;
+package ejercicio4.U4;
 
 //Desarrolla una clase Cancion con los siguientes atributos:
 //- titulo: una variable String que guarda el título de la canción.
