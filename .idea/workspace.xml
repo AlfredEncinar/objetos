@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae2429c5-a93d-4f88-bf35-de951f3c4aea" name="Changes" comment="h">
+<<<<<<<<< Temporary merge branch 1
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio6/Fecha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio6/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio6/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio6/muestraLibro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio7/PilaPalabras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unidad5/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unidad5/Ejercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicio4/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicio4/CD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicio4/Cancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicio4/Cancion.java" afterDir="false" />
+=========
+      <change afterPath="$PROJECT_DIR$/src/Unidad5/Ejercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio3/UsoZona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio3/U4/UsoZona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio3/Zona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio3/U4/Zona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicio4/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicio4/U4/CD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicio4/Cancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicio4/U4/Cancion.java" afterDir="false" />
+>>>>>>>>> Temporary merge branch 2
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,26 +55,13 @@
     &quot;last_opened_file_path&quot;: &quot;/home/estudiante/IdeaProjects/objetos&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ejercicio1">
+  <component name="RunManager" selected="Application.muestraLibro">
     <configuration name="CD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ejercicio4.CD" />
       <module name="objetos" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ejercicio4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ejercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unidad5.Ejercicio1" />
-      <module name="objetos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Unidad5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,9 +102,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="muestraLibro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercicio6.muestraLibro" />
+      <module name="objetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ejercicio6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ejercicio1" />
+        <item itemvalue="Application.muestraLibro" />
         <item itemvalue="Application.CD" />
         <item itemvalue="Application.UsoZona" />
         <item itemvalue="Application.Pizza.UsoPizza" />
@@ -202,14 +218,7 @@
       <option name="project" value="LOCAL" />
       <updated>1669719345976</updated>
     </task>
-    <task id="LOCAL-00013" summary="h">
-      <created>1673426172874</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1673426172874</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
