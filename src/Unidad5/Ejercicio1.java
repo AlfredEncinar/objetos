@@ -18,6 +18,7 @@ public class Ejercicio1 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Introuduce el año : ");
+
         int año = sc.nextInt();
         System.out.println("Introudce el mes : ");
         int mes = sc.nextInt();
